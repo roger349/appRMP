@@ -14,18 +14,19 @@
 <body style="background-color: rgb(30, 59, 126);">
     <div class="container" style="border:none;">
         <div id="head" class="row">
-            <div class="col-1">
+            <div class="col-1" style="background-color: greenyellow;">
                 <img src="./img/logo reconocimiento medico.jpg" class="imagenppal" alt="">
             </div>
             <div class="col-10">
                 <h1>Reconocimiento Medico Policial</h1>
             </div>
-            <div class="col-1">
+            <div class="col-1" style="background-color: aqua;">
                 <a href="#" id="loginIcon" class="text-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
                     <img src="./img/logo in.png" alt="Login">
                 </a>
             </div>
-            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        </div>    
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content bg-info text-white">
                         <div class="modal-header">
@@ -50,19 +51,20 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div id="menu-principal" class="row">
-            <nav class="menu-principal">
-                <ul>
-                    <li><a href=""><img src="./img/logo reconocimiento medico.jpg" class="imagenppal" alt=""></a></li>
-                    <li><a href="">Sobre Nosotros</a></li>
-                    <li><a href="">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="body-job" class="row" style="border:none;">
+        <div id="body-job" class="container" style="border:none;">
             <div id="formularioDatos" style="display: none;">
+                <div id="menu-principal">
+                    <nav class="menu-principal">
+                        <ul>
+                            <li><a href=""><img src="./img/logo reconocimiento medico.jpg" class="imagenppal"
+                                        alt=""></a>
+                            </li>
+                            <li><a href="">Sobre Nosotros</a></li>
+                            <li><a href="">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <form id="datosForm">
 
                 </form>
