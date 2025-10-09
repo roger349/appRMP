@@ -1,0 +1,17 @@
+/* Elimina el fondo oscuro del modal */
+.modal-backdrop {
+  display: none !important;
+}
+
+/* Permite que el contenido detrás del modal siga siendo visible */
+.modal {
+ background-color: transparent !important;
+ 
+}
+
+.modal-dialog {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  position: relative;
+  margin: 0 auto; /* Centrado horizontal */
+}
+
