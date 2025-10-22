@@ -1,19 +1,17 @@
 body {
-    background-size: cover;
-    background-image:url(../img/imgpoliciapciasde.jpg);
-   /** background-color: rgb(0, 132, 255); **/
+    background-size:cover;
+    background-color:rgb(152, 190, 231);
     font-family: Arial, sans-serif;
     padding: 5px;
 }
-.container{
-       
-}
+
 #head {
-    height: 50px;
-    background-color: rgb(14, 126, 230);
+    margin-top: 10px;
+    height: 70px;
+    background-color: rgb(14, 230, 216);
 }
 div h1 {
-    margin-top: 5px; 
+    margin-top: 15px; 
     font-size: 1.5em;
     padding-top:5px;
     font-weight: bold;
@@ -22,35 +20,33 @@ div h1 {
 }
 #menu-principal {
     height: 50px;
-    background-color: rgb(3, 53, 100);
+    background-color: rgb(191, 213, 234);
     padding: 10px 0;
 }
-#menu-principal ul {
-    list-style: none; /* Elimina los puntos de la lista */
-    padding: 0;
-    margin: 0;
-    text-align: center; /* Centra las opciones */
+
+.horizontal-accordion li {
+  display: inline-block; /* Muestra los elementos uno al lado del otro */
+  margin-right: 50px; /* Espacio entre los elementos */
 }
-#menu-principal li {
-    display: inline; /* Coloca las opciones en línea horizontal */
-    margin: 0 20px;
+
+.horizontal-accordion details {
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
 }
-#menu-principal a {
-    color: white;
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    font-weight: bold;
-    padding: 5px 10px;
-    transition: background-color 0.3s; /* Transición suave para el hover */
-}
-#menu-principal a:hover {
-    background-color: #555; /* Cambio de color al pasar el ratón */
-    border-radius: 4px;
+
+.horizontal-accordion summary {
+  cursor: pointer; /* Indica que es interactivo */
 }
 img {
-    width: 40px; /* La imagen se adapta al tamaño del contenedor */
-    height: 50px;
+    width: 90px; 
+    height: 70px;
     
 }
+#logologin {
+    width: 70px; 
+    height: 70px; 
+}
+
 #body-job {
     width: 1020px;
     height:550px;
