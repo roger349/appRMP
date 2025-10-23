@@ -37,16 +37,11 @@ div h1 {
 .horizontal-accordion summary {
   cursor: pointer; /* Indica que es interactivo */
 }
-img {
+#logoRua {
     width: 90px; 
     height: 70px;
     
 }
-#logologin {
-    width: 70px; 
-    height: 70px; 
-}
-
 #body-job {
     width: 1020px;
     height:550px;

@@ -16,7 +16,7 @@
     <div class="container" style="border:none;">
         <div id="head" class="row">
             <div class="col-1" style="background-color: greenyellow;">
-                <img src="./img/rua-.svg" class="imagenppal" alt="">
+                <img id="logoRua" src="./img/rua-.svg" class="imagenppal" alt="">
             </div>
             <div class="col-10">
                 <h1>Registro Unico de Adopciones</h1>
@@ -137,7 +137,7 @@
                 } else {
                     isLoggedIn = false;
                     localStorage.removeItem("isLoggedIn");
-                    loginIcon.innerHTML = '<img src="./img/logo in.png" alt="Login" width="40">';
+                    loginIcon.innerHTML = '<img src="./img/logo in.png" alt="Login" width="55">';
                     formularioDatos.style.display = "none";
                     alert("Sesión cerrada");
                 }
@@ -154,7 +154,7 @@
                     isLoggedIn = true;
                     localStorage.setItem("isLoggedIn", "true");
                     formularioDatos.style.display = "block";
-                    loginIcon.innerHTML = '<img src="./img/logo out.png" alt="Logout" width="40">';
+                    loginIcon.innerHTML = '<img src="./img/logo out.png" alt="Logout" width="55">';
                     const modal = bootstrap.Modal.getInstance(document.getElementById("loginModal"));
                     modal.hide();
                     loginForm.reset();
