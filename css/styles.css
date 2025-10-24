@@ -1,6 +1,4 @@
 body {
-    background-size:cover;
-    background-color:rgb(152, 190, 231);
     font-family: Arial, sans-serif;
     padding: 5px;
 }
@@ -8,7 +6,7 @@ body {
 #head {
     margin-top: 10px;
     height: 70px;
-    background-color: rgb(14, 230, 216);
+    background-color: rgb(214, 243, 179);
 }
 div h1 {
     margin-top: 15px; 
@@ -18,29 +16,46 @@ div h1 {
     text-transform: uppercase;
     text-align: center;
 }
-#menu-principal {
-    height: 50px;
-    background-color: rgb(191, 213, 234);
-    padding: 10px 0;
+#menuAcordeon {
+    padding:3px;
+    background-color:transparent;
+}
+/* Botón del acordeón */
+.accordion-button {
+  background-color: transparent !important;
+  color: rgb(15, 14, 14); /* o el color que prefieras */
+  border: none;
+  box-shadow: none;
 }
 
-.horizontal-accordion li {
-  display: inline-block; /* Muestra los elementos uno al lado del otro */
-  margin-right: 50px; /* Espacio entre los elementos */
+/* Cuerpo expandido */
+.accordion-collapse {
+  background-color: transparent !important;
 }
 
-.horizontal-accordion details {
-  border: 1px solid #ccc;
-  margin-bottom: 5px;
+/* Contenido interno del cuerpo */
+.accordion-body {
+  background-color: transparent !important;
+  color: rgb(12, 12, 12); /* o el color que prefieras */
 }
 
-.horizontal-accordion summary {
-  cursor: pointer; /* Indica que es interactivo */
+/* Opcional: eliminar bordes del item */
+.accordion-item {
+  background-color: transparent !important;
+  border: none;
 }
 #logoRua {
     width: 90px; 
     height: 70px;
     
+}
+#loginIcon {
+  height: 100%;
+}
+
+#loginIcon img.login-img {
+  width: 50px;
+  height: auto;
 }
 #body-job {
     width: 1020px;
